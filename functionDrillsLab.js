@@ -138,7 +138,8 @@ const exclaimTwo = str => {
 */
 
 const exclaimThree = str => str.toUpperCase `${str} !!!`
-console.log(exclaimThree("hello everyone"))
+
+// console.log(exclaimThree("hello everyone"))
 
 ////////////////// PROBLEM 9 ////////////////////
 
@@ -152,7 +153,7 @@ function exclaimFour(str) {
 }
 
 // console.log('arrow')
-// console.log('declaration')
+// console.log('declaration') <<<<<<<<<<<
 // console.log('expression')
 
 
@@ -166,6 +167,7 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+
 
 
 ////////////////// PROBLEM 11 ////////////////////
