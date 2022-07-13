@@ -15,7 +15,7 @@
 
 const helloWorld = () => console.log('Hello World')
 
-helloWorld()
+// helloWorld()
 
 ////////////////// PROBLEM 2 ////////////////////
 
@@ -27,6 +27,8 @@ helloWorld()
 
 const jsNinja = () => console.log("I am a JavaScript ninja!")
 
+// jsNinja()
+
 ////////////////// PROBLEM 3 ////////////////////
 /*
   Create a function called printName which takes in a person's name and console logs it.
@@ -36,6 +38,9 @@ const jsNinja = () => console.log("I am a JavaScript ninja!")
 
 //CODE HERE
 
+const printName = name => console.log(`${name}`)
+
+// printName('Cameron')
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -48,7 +53,9 @@ const jsNinja = () => console.log("I am a JavaScript ninja!")
 */
 
 //CODE HERE
+const greeting = name => console.log(`Hello, ${name}.`)
 
+// greeting("Jake")
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -63,6 +70,17 @@ const jsNinja = () => console.log("I am a JavaScript ninja!")
 
 //CODE HERE
 
+// const compareNums = (num1, num2) => {
+//   if (num1 >= num2) {
+//     return num1
+//   } else {
+//     return num2
+//   }
+// }
+
+const compareNums = (num1, num2) => num1 >= num2 ? num1 : num2
+
+// console.log(compareNums(4, 6))
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -74,6 +92,11 @@ const jsNinja = () => console.log("I am a JavaScript ninja!")
 
 //CODE HERE
 
+const add = (num1, num2) => parseInt(num1) + parseInt(num2)
+
+const sum = add(5, 9)
+
+// console.log(sum)
 
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -88,7 +111,7 @@ const exclaim = function(str) {
 
 // console.log('arrow')
 // console.log('declaration')
-// console.log('expression')
+// console.log('expression') <<<<<<<<
 
 
 
@@ -103,7 +126,7 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// console.log('arrow')
+// console.log('arrow') <<<<<<<<<<<
 // console.log('declaration')
 // console.log('expression')
 
@@ -114,7 +137,8 @@ const exclaimTwo = str => {
   Brownie points if you use a template string
 */
 
-
+const exclaimThree = str => str.toUpperCase `${str} !!!`
+console.log(exclaimThree("hello everyone"))
 
 ////////////////// PROBLEM 9 ////////////////////
 
